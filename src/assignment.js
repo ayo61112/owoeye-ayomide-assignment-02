@@ -31,13 +31,13 @@ assignment.sumOfNumbers = sumOfNumbers;
  * @returns number the count of even numbers
  */
 function countEvenNumbers(arrayOfNumbers) {
-   let evenNumbers = 0
-    for(let i = 0; 1<=arrayOfNumbers.length; i++){
-        if (arrayOfNumbers[i] %2 ===0){
-            evenNumbers++
+     let count = 0;
+    for (const element of arrayOfNumbers) {
+        if (element % 2 ===0) {
+            count++;
         }
     }
-    return evenNumbers;
+    return count;
   
 }
 assignment.countEvenNumbers = countEvenNumbers;
@@ -59,7 +59,7 @@ assignment.countEvenNumbers = countEvenNumbers;
 function celsiusToFahrenheit(arrayOfNumbers) {
     return arrayOfNumbers;
 }
-// assignment.celsiusToFahrenheit = celsiusToFahrenheit;
+assignment.celsiusToFahrenheit = celsiusToFahrenheit;
 
 
 // ========================
